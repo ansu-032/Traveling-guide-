@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.destination-info img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.destination-info h1 {
+  font-size: 24px;
+}
+
+.destination-info h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.destination-info ul {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 480px) {
+  nav ul li {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .destination-info h1 {
+    font-size: 28px;
+  }
+
+  .destination-info h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .destination-info img {
+    margin-bottom: 30px;
+  }
+  
+  nav ul li a {
+    padding: 15px;
+  }
+}

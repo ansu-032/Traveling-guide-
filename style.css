@@ -1,0 +1,119 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #e6e4e0;
+  background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat:inherit;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; /* Add wrap to allow navigation items to wrap on smaller screens */
+  justify-content: space-between; /* Adjust alignment on smaller screens */
+}
+
+nav ul li {
+  margin-right: 20px;
+  margin-bottom: 10px; /* Add margin-bottom for spacing between navigation items */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.destination {
+  margin-bottom: 40px;
+}
+
+.destination h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.destination-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow destination cards to wrap on smaller screens */
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%; /* Adjust card width to 100% for smaller screens */
+  max-width: 400px; /* Add a max-width to prevent cards from becoming too wide on larger screens */
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin-bottom for spacing between cards */
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.tips h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tips-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.tip {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

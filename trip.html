@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Planning and Inspiration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #e6e4e0;
+  background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat:inherit;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; /* Add wrap to allow navigation items to wrap on smaller screens */
+  justify-content: space-between; /* Adjust alignment on smaller screens */
+}
+
+nav ul li {
+  margin-right: 20px;
+  margin-bottom: 10px; /* Add margin-bottom for spacing between navigation items */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.destination {
+  margin-bottom: 40px;
+}
+
+.destination h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.destination-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow destination cards to wrap on smaller screens */
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%; /* Adjust card width to 100% for smaller screens */
+  max-width: 400px; /* Add a max-width to prevent cards from becoming too wide on larger screens */
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin-bottom for spacing between cards */
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.tips h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tips-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.tip {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+  </style>
+
+</head>
+<body> 
+
+  <main>
+    <section class="hero">
+      <h1>Plan Your Next Adventure</h1>
+      <p>Get inspired and explore amazing destinations around the world.</p>
+      <a href="http://www.google.com/travel" class="btn">Start Exploring</a>
+    </section>
+
+    <section class="destination">
+      <h2>Popular Destinations</h2>
+      <div class="destination-cards">
+        <!-- destination 1 -->
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.2zDky2I8m5SC2xBI4ZR5XAEsCo?pid=ImgDet&rs=1" alt="Destination 1">
+          <h3>jaipur</h3>
+          <p>Jaipur, Rajasthan: Known as the "Pink City," Jaipur is a vibrant and culturally rich city in the state of Rajasthan. It is famous for its magnificent palaces, such as the Hawa Mahal and the City Palace, as well as the stunning Amber Fort. Jaipur also offers an opportunity to explore local markets, taste delicious Rajasthani cuisine, and witness traditional folk performances.</p>
+          <a href="jaipur.html">click hear for more info</a>
+        </div>
+        <!-- destination 2 -->
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.Cv8dcSW4ctpMsXf3_FF4bQHaFj?w=225&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Destination 2">
+          <h3>kerala</h3>
+          <p>Kerala: Located on the southwestern coast of India, Kerala is a tropical paradise known for its serene backwaters, palm-fringed beaches, and lush green landscapes. Visitors can enjoy a houseboat cruise through the backwaters of Alleppey, relax on the pristine beaches of Kovalam, explore the tea plantations in Munnar, and experience the rich cultural heritage of cities like Kochi and Thiruvananthapuram.</p>
+          <a href="kerla.html">click hear for more info</a>
+        </div>
+        <!-- destinaton 3 -->
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.RGF0gdTPxmn83vdX449YoQHaE8?pid=ImgDet&rs=1" alt="Destination 3">
+          <h3>Varanasi</h3>
+          <p>Varanasi, Uttar Pradesh: Varanasi, situated on the banks of the sacred Ganges River, is one of the oldest living cities in the world and holds immense spiritual significance for Hindus. It is renowned for its ghats, where pilgrims gather to perform religious rituals and witness captivating evening ceremonies. Varanasi also offers a glimpse into the rich cultural traditions of India, with its narrow lanes, bustling markets, and vibrant street life.</p>
+          <a href="varanasi.html">click hear for more info</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="tips">
+      <h2>Travel Tips</h2>
+      <div class="tips-list">
+        <div class="tip">
+          <h3>Trip Planning Checklist</h3>
+          <ul>
+            <li>Research your destination</li>
+            <li>Check passport and visa requirements</li>
+            <li>Book flights and accommodation</li>
+            <li>Create an itinerary</li>
+            <li>Check travel advisories</li>
+            <li>Get travel insurance</li>
+            <li>Make copies of important documents</li>
+            <li>Pack necessary clothing and essentials</li>
+            <li>Check local weather conditions</li>
+            <li>Learn basic local phrases</li>
+            <li>Notify your bank about travel plans</li>
+            <li>Arrange transportation at the destination</li>
+            <li>Plan activities and attractions to visit</li>
+            <li>Double-check reservations and bookings</li>
+            <li>Prepare a budget for the trip</li>
+          </ul>
+        </div>
+        <div class="tip">
+          <h3>Essential Packing Tips</h3>
+          <ul>
+            <li>Make a packing checklist</li>
+            <li>Pack versatile clothing items</li>
+            <li>Bring comfortable walking shoes</li>
+            <li>Check the weather forecast</li>
+            <li>Pack travel-sized toiletries</li>
+            <li>Carry a basic first aid kit</li>
+            <li>Bring necessary medications</li>
+            <li>Don't forget travel adapters</li>
+            <li>Pack a travel lock</li>
+            <li>Roll clothes to save space</li>
+            <li>Consider a travel backpack or suitcase</li>
+            <li>Bring a reusable water bottle</li>
+            <li>Pack a travel towel</li>
+            <li>Remember important travel documents</li>
+            <li>Carry some snacks for the journey</li>
+          </ul>
+        </div>
+        <div class="tip">
+          <h3>Exploring Local Cuisine</h3>
+          <ul>
+            <li>Research popular local dishes</li>
+            <li>Visit local markets and food stalls</li>
+            <li>Try authentic street food</li>
+            <li>Ask locals for restaurant recommendations</li>
+            <li>Explore regional specialties</li>
+            <li>Be open to trying new flavors and ingredients</li>
+            <li>Learn basic food etiquette and customs</li>
+            <li>Consider taking a cooking class or food tour</li>
+            <li>Be cautious with food hygiene and cleanliness</li>
+            <li>Sample traditional beverages and drinks</li>
+            <li>Discover local food festivals or events</li>
+            <li>Respect dietary restrictions and cultural norms</li>
+            <li>Keep an open mind and embrace the culinary adventure</li>
+            <li>Document your food experiences through photos or a journal</li>
+            <li>Interact with chefs and food vendors for insights</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    </main>
+
+  <footer>
+    <p>&copy; 2023 Travel Planning and Inspiration</p>
+  </footer>
+</body>
+</html>
